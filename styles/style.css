@@ -106,12 +106,88 @@ font-weight: 700;
 margin-left: 15px;
 }
 /* section2 style */
+.section2{
+    margin: 0px 100px;
+}
 .title1{
     color: rgb(0, 0, 0);
 font-family: Quicksand;
-font-size: 2.5rem;
+font-size: 2rem;
 font-weight: 700;
+text-align: center;
+margin-top: 60px;
 }
+/* card style */
+.card-box1{
+    display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   margin-top: 80px;
+   background-image: url("bg.png");
+   
+}
+.card-1{
+border: 1px solid rgb(222, 245, 255);
+border-radius: 18px;
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.img-card{
+   /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 50px;
+}
+.tkids{
+    color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 1.5rem;
+font-weight: 700;
+text-align: center;
+}
+.narate2{
+    color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 1rem;
+font-weight: 400;
+text-align: center;
+margin: 0px 20px;
+}
+.narate3{
+    color: rgb(100, 200, 255);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+text-align: center;
+}
+.narate4{
+    color: rgb(240, 170, 0);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+text-align: center;
+}
+.narate5{
+    color: rgb(135, 0, 255);
+font-family: Quicksand;
+font-size: 1rem;
+font-weight: 700;
+text-align: center;
+}
+.card-2{
+border: 1px solid rgb(255, 244, 220);
+border-radius: 18px;
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+margin-left: 20px;
+}
+.card-3{
+border: 1px solid rgb(242, 232, 255);
+border-radius: 18px;
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+margin-left: 20px;
+}
+
+
+
 
 
 /* media query */
